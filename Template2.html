@@ -6,6 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="icon" type="image/png" href="./img/ico-Hedgehog-48.png"/>
     <title>Basic Template 2 - Bootstrap</title>
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -17,12 +18,12 @@
     <link href="css/style.css" rel="stylesheet">
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#navBarID">
         <!--Main Navigation-->
         <header>
             
             <!--Navbar-->
-            <nav class="navbar navbar-expand-sm navbar-dark fixed-top scrolling-navbar">
+            <nav id="navBarID" class="navbar navbar-expand-lg navbar-dark indigo fixed-top scrolling-navbar">
 <!-- NavBar container         
   with .container, the NavBar will NOT flush to the left       
                 <div class="container">
@@ -33,15 +34,26 @@
                         <!-- small company icon/log in the NavBar -->
                         <img src="./img/logo1-small-200.jpg" width="50" height="37" class="d-inline-block align-center" alt="">
                     <!-- Collapse button -->
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav"
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#fixedTopNav" aria-controls="fixedTopNav"
                         aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
 
                     <!-- Collapsible content -->
-                    <div class="collapse navbar-collapse" id="basicExampleNav">
+                    <div class="collapse navbar-collapse" id="fixedTopNav">
+
+                        <!-- alternative impl w/o li -->
+                        <div class="navbar-nav mr-auto smooth-scroll">
+                            <a class="nav-item nav-link active" href="#intro">Home</a>
+                            <a class="nav-item nav-link" href="#best-features">Features</a>
+                            <a class="nav-item nav-link" href="#examples">Examples</a>
+                            <a class="nav-item nav-link" href="#gallery">Gallery</a>
+                            <a class="nav-item nav-link" href="#contact">Contact</a>
+                        </div>
+                        <!-- alternative impl w/o li -->
 
                         <!-- Links -->
+<!--                        
                         <ul class="navbar-nav mr-auto smooth-scroll">
                             <li class="nav-item">
                                 <a class="nav-link" href="#intro">Home</a>
@@ -59,6 +71,7 @@
                                 <a class="nav-link" href="#contact">Contact</a>
                             </li>
                         </ul>
+-->                        
                         <!-- Links -->
 
                         <!-- Social Icon  -->
@@ -73,6 +86,7 @@
                                 <a class="nav-link"><i class="fa fa-instagram"></i></a>
                             </li>
                         </ul>
+
                         <!-- remove the seach box ---
                         <form class="form-inline">
                             <div class="md-form mt-0">
@@ -124,8 +138,10 @@
 
 
     <!--Main layout-->
-    <main class="mt-5">
+    <main class="mt-5 container">
+<!-- container div --        
         <div class="container">
+-- container div -->            
 
             <!--Section: Best Features-->
             <section id="best-features" class="text-center">
@@ -472,8 +488,9 @@
 
             </section>
             <!--Section: Contact-->
-
+<!-- container div -- 
         </div>
+-- container div -->        
     </main>
     <!--Main layout-->
 
@@ -531,10 +548,12 @@
 
                 <!--First column-->
                 <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
-                    <h6 class="text-uppercase font-weight-bold">
+                    <h6 class="text-uppercase font-weight-bold FooterLinkHeader">
                         <strong>Company name</strong>
                     </h6>
+<!-- remove line --                    
                     <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+-- remove line -->                   
                     <p>Here you can use rows and columns here to organize your footer content. Lorem ipsum dolor sit
                         amet, consectetur adipisicing elit.</p>
                 </div>
@@ -542,10 +561,12 @@
 
                 <!--Second column-->
                 <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-                    <h6 class="text-uppercase font-weight-bold">
-                        <strong>Products</strong>
+                    <h6 class="text-uppercase font-weight-bold FooterLinkHeader">
+                      <strong>Products</strong>
                     </h6>
+<!-- remove line --
                     <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+-- remove line -->
                     <p>
                         <a href="#!">MDBootstrap</a>
                     </p>
@@ -563,10 +584,12 @@
 
                 <!--Third column-->
                 <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-                    <h6 class="text-uppercase font-weight-bold">
+                    <h6 class="text-uppercase font-weight-bold FooterLinkHeader">
                         <strong>Useful links</strong>
                     </h6>
+<!-- remove line --
                     <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+-- remove line -->
                     <p>
                         <a href="#!">Your Account</a>
                     </p>
@@ -584,10 +607,12 @@
 
                 <!--Fourth column-->
                 <div class="col-md-4 col-lg-3 col-xl-3">
-                    <h6 class="text-uppercase font-weight-bold">
+                    <h6 class="text-uppercase font-weight-bold FooterLinkHeader">
                         <strong>Contact</strong>
                     </h6>
+<!-- remove line --                    
                     <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+-- remove line -->                    
                     <p>
                         <i class="fa fa-home mr-3"></i> New York, NY 10012, US</p>
                     <p>
