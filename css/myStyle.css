@@ -1,4 +1,4 @@
-
+/** my custom CSS **/
 
 html,
 body,
@@ -8,7 +8,10 @@ header,
 }
 
 #intro {
-    background: url("../img/pics/4.jpg") no-repeat center center fixed; 
+/*
+    background: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full%20page/img%20%283%29.jpg") no-repeat center center fixed; 
+*/
+    background: url("../img/bk-img.jpg") no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -34,5 +37,6 @@ header,
 }
 
 .navbar-inner {
-    background:transparent;
+  background:transparent;
 }
+
