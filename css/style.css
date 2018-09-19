@@ -5,7 +5,10 @@ body,
 header,
 #intro {
     height: 100%;
+    scroll-behavior: smooth;
 }
+
+
 
 #intro {
     background: url("../img/pics/4.jpg") no-repeat center center fixed; 

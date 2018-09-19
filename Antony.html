@@ -21,86 +21,62 @@
 <body data-spy="scroll" data-target="#navBarID">
         <!--Main Navigation-->
         <header>
-            
-            <!--Navbar- ->
-            <nav id="navBarID" class="navbar navbar-expand-lg navbar-dark indigo fixed-top scrolling-navbar">
-
-                    <!-- Navbar brand - ->
+            <!--Navbar-->
+            <nav id="navBarID" class="navbar navbar-expand-lg navbar-dark indigo fixed-top scrolling-navbar" >
+                    <!-- Navbar brand -->
                     <a class="navbar-brand" href="#">
-                        <!-- small company icon/log in the NavBar - ->
-                        <img src="./img/logo1-small-200.jpg" width="50" height="37" class="d-inline-block align-center" alt="">
+                        <!-- small company icon/log in the NavBar -->
+                        <img src="./img/ico-Logo48.png" width="24" height="auto" class="d-inline-block align-center" alt="">
                     </a>    
-                    <!-- Collapse button - ->
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#fixedTopNav" aria-controls="fixedTopNav"
+                    <!-- Collapse button -->
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navBarHamburger" aria-controls="navBarHamburger"
                         aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
 
-                    <!-- Collapsible content - ->
-                    <div class="collapse navbar-collapse" id="fixedTopNav">
+                    <!-- Collapsible content -->
+                    <div class="collapse navbar-collapse" id="navBarHamburger">
 
-                        <!-- alternative impl w/o li - ->
+                        <!-- alternative impl w/o li -->
                         <div class="navbar-nav mr-auto smooth-scroll">
-                            <a class="nav-item nav-link active" href="#intro">Home</a>
-                            <a class="nav-item nav-link" href="#best-features">Features</a>
-                            <a class="nav-item nav-link" href="#examples">Examples</a>
-                            <a class="nav-item nav-link" href="#gallery">Gallery</a>
-                            <a class="nav-item nav-link" href="#contact">Contact</a>
+                            <a class="nav-item nav-link active" href="#">Home</a>
+                            <a class="nav-item nav-link" href="#my-projects">Projects</a>
+                            <a class="nav-item nav-link" href="#awards">Awards</a>
+                            <a class="nav-item nav-link" href="#extracurricular">Extracurricular</a>
+                            <a class="nav-item nav-link" href="#experience">Experience</a>
+                            <a class="nav-item nav-link" href="#about-me">About me</a>
                         </div>
  
-                        <!-- Links - ->
+                        <!-- Links -->
+                        <!-- Social Icon  -->
+                        <!-- .ml-auto to flush them to the right -->
+                        <ul class="navbar-nav nav-flex-icons ml-auto">
+                            <li class="nav-item">   <!-- LinkedIn -->
+                                <a class="nav-link badge badge-pill badge-white mr-2" href="http://www.linkedin.com/in/anthonylau3" target='_blank'>
+                                    <i class="fa fa-linkedin fa-2x"></i>
+                                </a>
+                            </li>
 
-                        <!-- Social Icon  - ->
-                        <ul class="navbar-nav nav-flex-icons">
-                            <li class="nav-item">
-                                <a class="nav-link"><i class="fa fa-facebook"></i></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link"><i class="fa fa-twitter"></i></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link"><i class="fa fa-instagram"></i></a>
+                            <li class="nav-item">   <!-- GitHub -->
+                                <a class="nav-link badge badge-pill badge-white mr-2" href="https://www.github.com/anthony5682" target='_blank'>
+                                    <i class="fa fa-github fa-2x "></i> 
+                                </a>
                             </li>
                         </ul>
-
+                        <!--/Social Icon -->
                     </div>
-                    <!-- Collapsible content - ->
+                    <!-- Collapsible content -->
             </nav>
             <!--/.Navbar-->
 
-            <nav id="navBarID" class="navbar navbar-expand-lg  indigo fixed-top scrolling-navbar">
-                <!-- Social Icon  -->
-                <!-- .ml-auto to flush them to the right -->
-                <ul class="navbar-nav nav-flex-icons ml-auto">
-                    <li class="nav-item">   <!-- LinkedIn -->
-                        <a class="nav-link badge badge-pill badge-white mr-2" href="http://www.linkedin.com/in/anthonylau3">
-                            <i class="fa fa-linkedin fa-2x"></i>
-                        </a>
-                    </li>
-
-                    <li class="nav-item">   <!-- GitHub -->
-                        <a class="nav-link badge badge-pill badge-white mr-2" href="https://www.github.com/anthony5682">
-                            <i class="fa fa-github fa-2x "></i> 
-                        </a>
-                    </li>
-                </ul>
-                <!--/Social Icon -->
-
-            </nav>
-
-
             <!--Mask-->
             <div id="intro" class="view">
-
                 <div class="mask rgba-black-light">
                     <div class="container-fluid d-flex align-items-center justify-content-center h-100">
-
                         <div class="row d-flex justify-content-center text-center">
-
                             <div class="col-md-12 col-lg-12">
-
                                 <!-- Avatar -->
-                                <div class="avatar mx-auto "><img src="./img/pics/avarta1-220a.png" class="rounded-circle">
+                                <div class="avatar mx-auto d-inline-block"><img src="./img/pics/avarta1-220a.png" class="rounded-circle">
                                 </div>
                                 <!-- /Avatar -->
 
@@ -113,50 +89,42 @@
                                 <!-- Description -->
                                 <h4 class="white-text my-2 font-weight-bold animated bounceInUp">Anthony Lau</h4>
                                 <a href="#my-projects">
-                                    <button type="button" class="btn btn-primary mt-5">Read more<i class="fa fa-book ml-2"></i></button>
+                                    <button type="button" class="btn btn-primary mt-5">Read more<i class="fa fa-user ml-2"></i></button>
                                 </a>
-
+                                <a target='_blank' href="./img/Resume - Anthnoy Lau.pdf">
+                                    <button type="button" class="btn btn-primary mt-5">Resume
+                                        <i class="fa fa-file-text ml-2"></i>
+                                    </button>
+                                </a>
                             </div>
-
                         </div>
-
                     </div>
-
                 </div>
-
             </div>
             <!--/.Mask-->
         </header>
         <!--Main Navigation-->
 
-
     <!--Main layout-->
-    <main class="mt-5 container">
-<!-- container div --        
+    <main>
+    <!-- <main class="mt-5"> -->
+        <!-- container -->
         <div class="container">
--- container div -->  
 
             <!--Section: Projects-->
-            <section id="my-projects" class="text-center">
-
-
+            <section id="my-projects" class="text-center pt-5">
                 <!--Grid row-->
                 <div class="row d-flex justify-content-center mb-4">
-
                     <!--Grid column-->
                     <div class="col-md-8 mt-5">
-
                         <!-- Description -->
-                        <p>Welcome to my website! I’m a Computer Engineering student at the University of Waterloo.
+                        <h5>Welcome to my website! I’m a Computer Engineering student at the University of Waterloo.
                             Here are some of the projects I have done recently.
-                        </p>
-
+                        </h5>
                     </div>
                     <!--Grid column-->
-
                 </div>
                 <!--Grid row-->
-
 
                 <!-- Heading -->
                 <h2 class="mb-5 font-weight-bold">Projects</h2>
@@ -165,55 +133,89 @@
                 <div class="row">
 
                     <!--Grid column-->
-                    <div class="col-lg-4 col-md-12 mb-4">
-
-                        <div class="view overlay z-depth-1-half">
-
-                            <div class="view overlay z-depth-1-half zoom ">
-                                <img src="./img/pics/particle-collider-480.png" class="img-fluid" alt="">
-                                <a href="https://github.com/anthony5682/CollisionSimulation.git">
-                                    <div class="mask rgba-white-slight"></div>
-                                </a>
-                            </div>
-
-                        </div>
-
-                        <h4 class="my-4 font-weight-bold">Particle Collision Simulation</h4>
-                        <p class="grey-text">An event driven particle collision simulation in an 
-                                            enclosed 2-dimensional space enabled by a priority queue 
-                                            using heapsort.  This application is written in C#.</p>
-
-                    </div>
-                    <!--/Grid column-->
-
-                    <!--Grid column-->
                     <div class="col-lg-4 col-md-6 mb-4">
-                        <div class="view overlay z-depth-1-half zoom ">
-                            <img src="./img/pics/casinor-480.png" class="img-fluid" alt="">
-                            <a href="https://github.com/anthony5682/Casinorama.git">
-                                <div class="mask rgba-white-slight"></div>
+                        <!-- Card -->
+                        <div class="card">
+                          <!-- Card image -->
+                          <div class="view overlay">
+                            <img class="card-img-top" src="./img/pics/particle-collider-resized.gif" alt="Paricles collider">
+                            <a target='_blank' href="https://github.com/anthony5682/CollisionSimulation.git">
+                              <div class="mask rgba-white-slight"></div>
                             </a>
+                          </div>
+
+                          <!-- Card content -->
+                          <div class="card-body">
+                            <!-- Title -->
+                            <h4 class="card-title">Particles Collision Simulation</h4>
+                            <!-- Text -->
+                            <p class="card-text">
+                                An event driven particle collision simulation in an 
+                                enclosed 2-dimensional space enabled by a priority queue 
+                                using heapsort.  This application is written in C#.
+                            </p>
+                            <!-- Button -->
+                            <!-- <a href="#" class="btn btn-primary">Button</a> -->
+                          </div>
                         </div>
-
-                        <h4 class="my-4 font-weight-bold">Casinorama</h4>
-                        <p class="grey-text">A virtual casino containing a host of classic games such as poker, 
-                            roulette, and blackjack, each with their own AI to play against. This is a Java app.</p>
-
+                        <!-- Card -->
                     </div>
                     <!--/Grid column-->
 
                     <!--Grid column-->
                     <div class="col-lg-4 col-md-6 mb-4">
+                        <!-- Card -->
+                        <div class="card">
+                          <!-- Card image -->
+                          <div class="view overlay">
+                            <img class="card-img-top" src="./img/pics/casino-roulette-480.gif" alt="Casinorama">
+                            <a target='_blank' href="https://github.com/anthony5682/Casinorama.git">
+                              <div class="mask rgba-white-slight"></div>
+                            </a>
+                          </div>
 
-                        <div class="view overlay z-depth-1-half zoom ">
-                            <img src="./img/pics/skinny-road-480.png" class="img-fluid" alt="">
+                          <!-- Card content -->
+                          <div class="card-body">
+                            <!-- Title -->
+                            <h4 class="card-title">Casinorama</h4>
+                            <!-- Text -->
+                            <p class="card-text">
+                                A virtual casino containing a host of classic games such as poker, 
+                                roulette, and blackjack, each with their own AI to play against. This is a Java app.
+                            </p>
+                            <!-- Button -->
+                            <!-- <a href="#" class="btn btn-primary">Button</a> -->
+                          </div>
+
+                        </div>
+                        <!-- Card -->
+                    </div>
+
+                    <!--/Grid column-->
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <!-- Card -->
+                        <div class="card">
+                          <!-- Card image -->
+                          <div class="view overlay">
+                            <img class="card-img-top" src="./img/pics/skinny-road-480.png" alt="Skinny road game">
                             <a href="#">
-                                <div class="mask rgba-white-slight"></div>
+                              <div class="mask rgba-white-slight"></div>
                             </a>
-                        </div>
+                          </div>
 
-                        <h4 class="my-4 font-weight-bold">Skinny Road</h4>
-                        <p class="grey-text">A game where you are a cube dodging obstacles on a skinny road. This was developed using Unity.</p>
+                          <!-- Card content -->
+                          <div class="card-body">
+                            <!-- Title -->
+                            <h4 class="card-title">Skinny Road</h4>
+                            <!-- Text -->
+                            <p class="card-text">
+                                A game where you are a cube dodging obstacles on a skinny road. This was developed using Unity.
+                            </p>
+                            <!-- Button -->
+                            <!-- <a href="#" class="btn btn-primary">Button</a> -->
+                          </div>
+                        </div>
+                        <!-- Card -->
 
                     </div>
                     <!--/Grid column-->
@@ -223,10 +225,209 @@
 
             </section>
             <!--/Section: Projects -->
-            <hr class="my-5">
+            <hr class="mt-5">
+            <!--Section: Awards -->
+            <section id="awards" class="text-center pt-5">
+                <!-- Heading -->
+                <h2 class="mb-3 font-weight-bold">Awards</h2>
+                <!--Grid row-->
+                <div class="row d-flex justify-content-center mb-4">
+                    <!--Grid column-->
+                    <!-- <div class="col-md-8"> -->
+
+                        <!-- Description -->
+                        <!-- <p>section sub-heading goes here...</p> -->
+
+                    <!-- </div> -->
+                    <!--Grid column-->
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+                    <!--Grid column-->
+                    <div class="col-md-3 mb-1">
+                        <!-- <i class="fa fa-heart fa-4x orange-text"></i> -->
+                        <img src="./img/pics/Nortel logo2.png" width="128" height=auto class="d-inline-block align-center" alt="">
+                        <h4 class="my-4 font-weight-bold">Nortel Networks Undergraduate Entrance Scholarship</h4>
+                        <p class="">
+                            Awarded to students entering Year One of Electrical and Computer Engineering with an outstanding Academic Performance
+                        </p>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-3 mb-1">
+                        <!-- <i class="fa fa-book fa-4x orange-text"></i> -->
+                        <img src="./img/pics/U Wat logo2.png" width="128" height="auto" class="d-inline-block align-center" alt="">
+                        <h4 class="my-4 font-weight-bold">University of Waterloo President’s Scholarship</h4>
+                        <p class="">
+                            Awarded to students with admission average of 90-94.9%
+                        </p>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-3 mb-1">
+                        <!-- <i class="fa fa-music fa-4x orange-text"></i> -->
+                        <img src="./img/pics/Lifesaving logo2.png" width="128" height="auto" class="d-inline-block align-center" alt="">
+                        <h4 class="my-4 font-weight-bold">Aquatic Leadership</h4>
+                        <p class="">
+                            National Lifeguard, Lifesaving Instructor, Swim Instructor, Emergency 
+                            First Aid Instructor, Standard First Aid with CPR-C
+                        </p>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-3 mb-1">
+                        <!-- <i class="fa fa-music fa-4x orange-text"></i> -->
+                        <img src="./img/pics/Duke logo2.png" width="128" height="auto" class="d-inline-block align-center" alt="">
+                        <h4 class="my-4 font-weight-bold">Duke of Edinburgh Silver Award</h4>
+                        <p class="">
+                            The Duke of Edinburgh Award is a year long self initiative focused on community service, personal 
+                            development and physical activities.  
+                        </p>
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+
+            </section>
+            <!--/Section: Awards-->
+            <hr class="mt-5">
+
+            <!--Section: Extracurricular -->
+            <section id="extracurricular" class="text-center  pt-5">
+
+                <!-- Heading -->
+                <h2 class="mb-3 font-weight-bold">Extracurricular</h2>
+
+                <!--Grid row-->
+                <div class="row d-flex justify-content-center mb-4">
+
+                    <!--Grid column-->
+                    <!-- <div class="col-md-8"> -->
+
+                        <!-- Description -->
+                        <!-- <p>section sub-heading goes here...</p> -->
+
+                    <!-- </div> -->
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+                    <!--Grid column-->
+                    <div class="col-md-4 mb-1">
+                        <!-- <i class="fa fa-heart fa-4x orange-text"></i> -->
+                        <img src="./img/pics/Relay for Life logo2.png" width="128" height=auto class="d-inline-block align-center" alt="">
+                        <h4 class="my-4 font-weight-bold">Canadian Cancer Society's Relay For Life</h4>
+                        <p class="">
+                            Being part of a national movement dedicated to making a difference and raised over $100K at St Theresa of Lisieux CHS
+                        </p>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-4 mb-1">
+                        <!-- <i class="fa fa-book fa-4x orange-text"></i> -->
+                        <img src="./img/pics/DECA logo2.png" width="128" height="auto" class="d-inline-block align-center" alt="">
+                        <h4 class="my-4 font-weight-bold">DECA</h4>
+                        <p class="">
+                            Competed at the Provincial level
+                        </p>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-4 mb-1">
+                        <!-- <i class="fa fa-music fa-4x orange-text"></i> -->
+                        <img src="./img/pics/RCM logo2.png" width="128" height="auto" class="d-inline-block align-center" alt="">
+                        <h4 class="my-4 font-weight-bold">The Royal Conservatory of Music</h4>
+                        <p class="">
+                            Piano level 8 - First Class Honor
+                        </p>
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+
+            </section>
+            <!--/Section: Extracurricular-->
+            <hr class="mt-5">
+
+            <!--Section: Experience -->
+            <section id="experience" class="text-center  pt-5">
+
+                <!-- Heading -->
+                <h2 class="mb-3 font-weight-bold">Experience</h2>
+
+                <!--Grid row-->
+                <div class="row d-flex justify-content-center mb-4">
+
+                    <!--Grid column-->
+                    <!-- <div class="col-md-8"> -->
+
+                        <!-- Description -->
+                        <!-- <p>section sub-heading goes here...</p> -->
+
+                    <!-- </div> -->
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+                    <!--Grid column-->
+                    <div class="col-md-4 mb-1">
+                        <!-- <i class="fa fa-heart fa-4x orange-text"></i> -->
+                        <img src="./img/ico-lifeguard-64.png" width="64" height="64" class="d-inline-block align-center" alt="">
+                        <h4 class="my-4 font-weight-bold">Lifeguard</h4>
+                        <p class="">
+                            Ensured that the pool and surrounding area was a safe and fun environment.
+                            <br>Organization: Superior Pool Spa and Leisure Ltd
+                        </p>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-4 mb-1">
+                        <!-- <i class="fa fa-book fa-4x orange-text"></i> -->
+                        <img src="./img/ico-swim-64.png" width="64" class="d-inline-block align-center" alt="">
+                        <h4 class="my-4 font-weight-bold">Swim Instructor</h4>
+                        <p class="">
+                          Provided swim lessons to children of all ages and skill levels by creating lesson plans. 
+                          <br>Organization: Elgin Mills West Pool.
+                        </p>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-4 mb-1">
+                        <i class="fa fa-book fa-4x orange-text"></i>
+                        <!-- <img src="./img/ico-lifeguard-64.png" width="64" height="64" class="d-inline-block align-center" alt=""> -->
+                        <h4 class="my-4 font-weight-bold">High School Tutor</h4>
+                        <p class="">
+                          Supplemented the instructions students received in classes, guided them towards study practices allowing them to reach their full potential. 
+                          <br>Courses: Math and Chemistry tutoring at STL
+                        </p>
+                    </div>
+                    <!--Grid column-->
+                </div>
+                <!--Grid row-->
+
+            </section>
+            <!--/Section: Experience-->
+            <hr class="mt-5">
 
             <!--Section: About-me -->
-            <section id="about-me" class="text-center">
+            <section id="about-me" class="text-center  pt-5">
 
                 <!-- Heading -->
                 <h2 class="mb-3 font-weight-bold">About me...</h2>
@@ -253,8 +454,8 @@
                         <!-- <i class="fa fa-heart fa-4x orange-text"></i> -->
                         <img src="./img/ico-ski-64.png" width="64" height="64" class="d-inline-block align-center" alt="">
 
-                        <h4 class="my-4">Outdoors</h4>
-                        <p class="grey-text">I enjoy the outdoors, such as biking & hiking in the summer and especially skiing
+                        <h4 class="my-4 font-weight-bold">Outdoors</h4>
+                        <p class="">I enjoy the outdoors, such as biking & hiking in the summer and especially skiing
                             in the winter. 
                             It’s exhilarating yet relaxing at the same time and is a great way to 
                             spend winter break.</p>
@@ -264,8 +465,8 @@
                     <!--Grid column-->
                     <div class="col-md-4 mb-1">
                         <i class="fa fa-plane fa-4x orange-text"></i>
-                        <h4 class="my-4">Travelling</h4>
-                        <p class="grey-text">I love travelling because it opens your eyes to experience/learn new perspectives 
+                        <h4 class="my-4 font-weight-bold">Travelling</h4>
+                        <p class="">I love travelling because it opens your eyes to experience/learn new perspectives 
                             and experiences. Travel puts you outside of your comfort zone, encouraging personal growth.  </p>
                     </div>
                     <!--Grid column-->
@@ -273,8 +474,8 @@
                     <!--Grid column-->
                     <div class="col-md-4 mb-1">
                         <i class="fa fa-music fa-4x orange-text"></i>
-                        <h4 class="my-4">Music</h4>
-                        <p class="grey-text">Music brings us all so much happiness – it's central to our lives. 
+                        <h4 class="my-4 font-weight-bold">Music</h4>
+                        <p class="">Music brings us all so much happiness – it's central to our lives. 
                             Playing piano gives me the chance to make music, allowing me to be creative 
                             and express myself.  </p>
                     </div>
@@ -287,68 +488,8 @@
             <!--/Section: About-me-->
             <hr class="my-5">
 
-            <!--Section: Extra-curricular -->
-            <section id="extra_curricular" class="text-center">
-
-                <!-- Heading -->
-                <h2 class="mb-3 font-weight-bold">Extracurricular & Experience</h2>
-
-                <!--Grid row-->
-                <div class="row d-flex justify-content-center mb-4">
-
-                    <!--Grid column-->
-                    <!-- <div class="col-md-8"> -->
-
-                        <!-- Description -->
-                        <!-- <p>section sub-heading goes here...</p> -->
-
-                    <!-- </div> -->
-                    <!--Grid column-->
-
-                </div>
-                <!--Grid row-->
-
-                <!--Grid row-->
-                <div class="row">
-                    <!--Grid column-->
-                    <div class="col-md-4 mb-1">
-                        <!-- <i class="fa fa-heart fa-4x orange-text"></i> -->
-                        <img src="./img/ico-lifeguard-64.png" width="64" height="64" class="d-inline-block align-center" alt="">
-                        <h4 class="my-4">Lifeguard & Swim Instructor</h4>
-                        <p class="grey-text">Provided swim lessons to children of all ages and skill levels by creating lesson plans.
-                                             Ensured that the pool and surrounding area was a safe and fun environment.
-                        </p>
-                    </div>
-                    <!--Grid column-->
-
-                    <!--Grid column-->
-                    <div class="col-md-4 mb-1">
-                        <i class="fa fa-book fa-4x orange-text"></i>
-                        <!-- <img src="./img/ico-lifeguard-64.png" width="64" height="64" class="d-inline-block align-center" alt=""> -->
-                        <h4 class="my-4">High School Tutor</h4>
-                        <p class="grey-text">As a mentor for younger students, I supplement the instruction they receive in class, guiding them towards study practices allowing students to reach their full potential. </p>
-                    </div>
-                    <!--Grid column-->
-
-                    <!--Grid column-->
-                    <div class="col-md-4 mb-1">
-                        <!-- <i class="fa fa-music fa-4x orange-text"></i> -->
-                        <img src="./img/ico-trophy-64.png" width="64" height="64" class="d-inline-block align-center" alt="">
-                        <h4 class="my-4">Duke of Edinburgh Silver Award</h4>
-                        <p class="grey-text">The Duke of Edinburgh Award is a year long self initiative focused on community service, personal 
-                                             development and physical activities.  </p>
-                    </div>
-                    <!--Grid column-->
-
-                </div>
-                <!--Grid row-->
-
-            </section>
-            <!--/Section: Extra-curricular-->
-            <hr class="my-5">
-
             <!--Section: Map-->
-            <section id="my-u-map" class="text-center">
+            <section id="my-u-map" class="text-center ">
 
                 <!-- Map Heading -->
                 <h2 class="mb-5 font-weight-bold">University of Waterloo</h2>
@@ -357,6 +498,9 @@
                 <div id="map-container" class="z-depth-1-half map-container mb-5" style="height: 400px"></div>
             </section>
             <!--/Section: Map-->
+
+        <!-- /Container -->
+        </div>
 
     </main>
     <!--/Main layout-->
@@ -380,11 +524,11 @@
 
                 <!--Second column-->
                 <div class="col-md-6 pb-3 ml-auto text-right">
-                   <a class="badge badge-pill badge-white mb-2 mx-1" href="http://www.linkedin.com/in/anthonylau3">
+                   <a class="badge badge-pill badge-white mb-2 mx-1" href="http://www.linkedin.com/in/anthonylau3" target='_blank'>
                        <i class="fa fa-linkedin fa-2x m-1"></i> 
                        <span class="m-2">LinkedIn</span>
                    </a>
-                   <a class="badge badge-pill badge-white mb-2 mx-1" href="https://www.github.com/anthony5682">
+                   <a class="badge badge-pill badge-white mb-2 mx-1" href="https://www.github.com/anthony5682" target='_blank'>
                        <i class="fa fa-github fa-2x m-1"></i> 
                        <span class="m-2">GitHub</span>
                    </a>
