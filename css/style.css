@@ -8,8 +8,6 @@ header,
     scroll-behavior: smooth;
 }
 
-
-
 #intro {
     background: url("../img/pics/4.jpg") no-repeat center center fixed; 
     -webkit-background-size: cover;
@@ -38,4 +36,56 @@ header,
 
 .navbar-inner {
     background:transparent;
+}
+
+#my-projects{
+    background: url("../img/bk-img-dark-blue-sky.jpg") no-repeat center center ; 
+    background-color: blue; 
+    /*background-image:  radial-gradient( #008080, #001a4d); */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#awards{
+    background: url("../img/bk-img-clouds.jpg") no-repeat center center ; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#experience{
+    background: url("../img/bk-img-bubbles2.png") no-repeat center center ; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#extracurricular{
+    background: url("../img/bk-img-geo2.png") no-repeat center center ; 
+    /*background-image: linear-gradient(to right, #e6faff, #ccf5ff);*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#about-me{
+    background: url("../img/bk-img-white.png") no-repeat center center ; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#my-u-map{
+    background-image:  radial-gradient( #008080, #001a4d); 
+    /*background: url("../img/pics/38.jpg") no-repeat center center ; */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
