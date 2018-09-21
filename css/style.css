@@ -30,7 +30,7 @@ header,
   }
 }
 
-.FooterLinkHeader {
+.FooterLinkHeader, .section-heading {
   text-decoration: underline;
 }
 
